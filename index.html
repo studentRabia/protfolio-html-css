@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <!-- font awesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logoR.png" alt="pic of profile" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>UX/UI Designer</p>
+          <p>Full stroke Developer</p>
+          <h1>
+            Hi&comma;I&apos;m <span>Rabia</span> <br />
+            From Pakistan.
+          </h1>
+        </div>
+      </div>
+
+      <!-- About -->
+
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+              <img src="images/bussinessgirl3.png" height="90%" alt="pic of about me" />
+            </div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                sunt nulla voluptatibus veniam aliquam magnam corporis ab
+                dolorum iusto nisi, praesentium eaque quibusdam voluptatem unde
+                dicta labore eius nostrum qui.
+              </p>
+              <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>App Development</span><br>Buiding Android/iSO app</li>
+                    <li><span>Web Development</span><br>Web app Development</li>
+                    <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2023 - current</span><br>UI/UX Designe Traning at Governor House GICI program</li>
+                    <li><span>2021 - 2022</span><br>Work with team at GICI</li>
+                    <li><span>2024 - 2025 </span><br> Internship  Coming soon with Daniyal Angori </li>
+                </ul>
+              </div> <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>B.Com</span><br>2 <sup>nd</sup>Devision</li>
+                    <li><span>Inter</span><br>A Grade</li>
+                    <li><span>Matric</span><br>B Grade</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!-- services -->
+  
+    <div id="services">
+      <div class="container">
+    
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+             <center> <i class="fa-solid fa-code"></i></center>
+              <h2>UI/UX Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident dignissimos magnam, quibusdam ullam blanditiis recusandae omnis doloremque nostrum, sed dolore illo laboriosam possimus explicabo deleniti iusto magni mollitia aspernatur.</p>
+              <a href="#"><u>Learn More</u><i class="fa-solid fa-greater-than"></i></a>
+            </div>
+            <div>
+              <center>     <i class="fa-solid fa-crop-simple"></i></center>
+              <h2>App Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident dignissimos magnam, quibusdam ullam blanditiis recusandae omnis doloremque nostrum, sed dolore illo laboriosam possimus explicabo deleniti iusto magni mollitia aspernatur.</p>
+              <a href="#"><u>Learn More</u><i class="fa-solid fa-greater-than"></i></a>
+            </div> 
+            <div>
+              <center> <i class="fa-brands fa-app-store"></i></center>
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia provident dignissimos magnam, quibusdam ullam blanditiis recusandae omnis doloremque nostrum, sed dolore illo laboriosam possimus explicabo deleniti iusto magni mollitia aspernatur.</p>
+              <a href="#"><u>Learn More</u><i class="fa-solid fa-greater-than"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+<!--    ----   portfolio    ----   -->
+    <div id="portfolio">
+      <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+
+        <div class="work">
+          <img src="images/calculator.jpg" alt="">
+          <div class="layer">
+            <h3>Calculator App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+          <div class="work">
+          <img src="images/currency convertor.jpg" alt="">
+          <div class="layer">
+            <h3>currency convertor App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/noGame.jpg"  alt="">
+          <div class="layer">
+            <h3>Number Game App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/currency convertor1.jpg" alt="">
+          <div class="layer">
+            <h3>Online Shopping App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/noGame.png"  alt="">
+          <div class="layer">
+            <h3>Music App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div><div class="work">
+          <img src="images/todoist.jpg" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/noGame.png"  alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/currency convertor.jpg" alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/noGame.png"  alt="">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>The app connects you the telented people around the word. Download it from play store.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+
+      </div>
+
+      <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+
+    <!--            ----    contact  -----     -->
+                <div id="contact">
+                  <div class="container">
+                    <div class="row">
+                      <div class="contact-left">
+                        <h1 class="sub-titel">Contact Me</h1>
+                    
+                        <p><a href="#"><i class="fa-solid fa-paper-plane"></i></a>abcAB@Example.com</p>
+                        <p><a href="#"><i class="fa-solid fa-square-phone"></i></a> 0100-000-00000</p><br>
+                        <div class="social-icon">
+                          <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                          <a href="https://www.twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                          <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                          <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="images/my-cv-pdf.pdf" download class="btn btn2" >Downlod CV</a>
+                      </div>
+                      <div class="contact-right">
+                        <form >
+                          <input type="text" name="NName" placeholder="Your Name " required>
+                          <input type="email" name="email" placeholder="Your Emai" required>
+                          <textarea name="Mwssage"  rows="4" placeholder="Your Message"></textarea>
+                         <center> <button type="submit" class="btn btn2">Submit</button></center>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="copyrigt">
+                    <p>Copyright &copy; Crazy Coder. Made with <i class="fa-solid fa-heart"></i> by Rabia Rehman </p>
+
+                  </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+
+</script>
+
+
+<script>
+  var sidemenu =document.getElementById("sidemenu");
+
+  function openmenu(){
+    sidemenu.style.right = "0"
+  }
+  function closemenu(){
+    sidemenu.style.right = "-200px"
+  }
+  
+</script>
+</body>
+</html>
